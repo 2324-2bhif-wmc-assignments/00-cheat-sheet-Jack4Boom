@@ -1,0 +1,38 @@
+body{
+    font-family: "Century Gothic";
+}
+.topnav {
+    background-color: #7D98A1;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #1C2321;
+    text-align: center;
+    padding: 1.5% 1.5%;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topnav a:hover {
+    background-color: #AAAAAA;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #E8E8E8;
+    color: black;
+}
+
+h3{
+    color: #278ed5;
+}
+
+h2{
+    color: teal;
+}
+
+h1{
+    color: #028476;
+}
