@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cheatsheet</title>
+    <title>Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,10 +12,21 @@
             <a class="active" href="index.html">Web</a>
             <a href="html_css.html">Html_Css</a>
         </div>
-        <h1 class="main">Web and Html basics</h1>
+        <h1 class="main">Web and Html basics
+            <div class="dropdown">
+                <button class="dropbtn">Navigation</button>
+                <div class="dropdown-content">
+                    <a href="#WWW">WWW</a>
+                    <a href="#WS">Web Server</a>
+                    <a href="#WC">Web Client</a>
+                    <a href="#HW">Hello World</a>
+                </div>
+            </div>
+        </h1>
+
 
         <hr>
-        <h2>World Wide Web</h2>
+        <h2 id="WWW">World Wide Web</h2>
         <hr>
 
         <h3>What are the most essential technologies that made the World Wide Web such a success?</h3>
@@ -32,7 +43,7 @@
         <h4><ul><li>A path : identifies the specific resource in the host that the web client wants to access (/documents/main/index.html)</li></ul></h4>
 
         <hr>
-        <h2>Web Server</h2>
+        <h2 id="WS">Web Server</h2>
         <hr>
 
         <h3>What is a web server?</h3>
@@ -50,7 +61,7 @@
         <h4><ul><li>Usually as text, but it can also be described as links, audios, animations, etc</li></ul></h4>
 
         <hr>
-        <h2>Web Client</h2>
+        <h2 id="WC">Web Client</h2>
         <hr>
 
         <h3>What is a web client?</h3>
@@ -63,7 +74,7 @@
         <h4><ul><li>Yes it is the same thing</li></ul></h4>
 
         <hr>
-        <h2>Hello World</h2>
+        <h2 id="HW">Hello World</h2>
         <hr>
 
         <h3>What is the html head element?</h3>
