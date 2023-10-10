@@ -23,6 +23,7 @@
     <h4><ul><li>Then there can be attributes like href=""</li></ul></h4>
     <h4><ul><li>Then theres content after the start tag like &ltdiv&gt hello &lt/div&gt</li></ul></h4>
     <h4><ul><li>And then there is the end tag &lt/div&gt to close the element</li></ul></h4>
+    <img src="assets/Html_declaration.png" class="html-declaration"/>
 
     <h3>Void elements</h3>
     <h4><ul><li>Void elements only have start, but no end tags</li></ul></h4>
@@ -69,6 +70,7 @@
     <h4><ul><li>First you have a selector such as &lth1&gt or &ltbody&gt which decides what element should be styled</li></ul></h4>
     <h4><ul><li>Then you have properties like font-family and such to change the style</li></ul></h4>
     <h4><ul><li>At last is the value to put in the properties like arias in font-family or blue in color</li></ul></h4>
+    <img src="assets/Css_declaration.png" class="css-declaration"/>
 
     <h3>Color by color name or hexadecimal notation</h3>
     <h4><ul><li>You can write color = "black" for expample</li></ul></h4>
@@ -80,16 +82,16 @@
 
     <h3>Pseudo classes for the &lta&gt tag</h3>
     <h4><ul><li><p>a:link {</p>
-        <p>color = "black"</p>
+        <ul><p>color = "black"</p></ul>
         }</li></ul></h4>
     <h4><ul><li><p>a:visited{</p>
-        <p>color = "red"</p>
+        <ul><p>color = "red"</p></ul>
         }</li></ul></h4>
     <h4><ul><li><p>a:hover{</p>
-        <p>color = "blue"</p>
+        <ul><p>color = "blue"</p></ul>
         }</li></ul></h4>
     <h4><ul><li><p>a:active{</p>
-        <p>color = "yellow"</p>
+        <ul><p>color = "yellow"</p></ul>
         }</li></ul></h4>
 
     <h3>Backround image</h3>
@@ -98,49 +100,79 @@
     <h3>Text alignment</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>text-align = left/right/center/justify</p>
+        <ul><p>text-align = left/right/center/justify</p></ul>
         }
     </li></ul></h4>
 
     <h3>Text decoration</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>text-decoration = overline/underline/line-through</p>
+        <ul><p>text-decoration = overline/underline/line-through</p></ul>
         }
     </li></ul></h4>
 
     <h3>Text transformation</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>text-transform = uppercase/lowercase/capitalize</p>
+        <ul><p>text-transform = uppercase/lowercase/capitalize</p></ul>
         }
     </li></ul></h4>
 
     <h3>Font family</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>font-family: "Century Gothic"</p>
+        <ul><p>font-family: "Century Gothic"</p></ul>
         }
     </li></ul></h4>
 
     <h3>Font style</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>font-style: italic</p>
+        <ul><p>font-style: italic</p></ul>
         }
     </li></ul></h4>
 
     <h3>Font size</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>font-size: em/rem/px/%/small/large</p>
+        <ul><p>font-size: em/rem/px/%/small/large</p></ul>
         }
     </li></ul></h4>
 
     <h3>Font weight</h3>
     <h4><ul><li>
         <p>p{</p>
-        <p>font-weight: normal/bold/bolder/lighter/number</p>
+        <ul><p>font-weight: normal/bold/bolder/lighter/number</p></ul>
+        }
+    </li></ul></h4>
+
+    <h3>Direct child</h3>
+    <h4><ul><li>
+        <p>Would be the syntax for a direct child meaning it selects all h1's in the body</p><br>
+        <p>body > h1{</p>
+        }
+    </li></ul></h4>
+
+    <h3>Direct child</h3>
+    <h4><ul><li>
+        <p>Would be the syntax for a direct child meaning it selects all h1's in the body</p><br>
+        <p>body > h1{</p>
+        }
+    </li></ul></h4>
+
+    <h3>Descendant</h3>
+    <h4><ul><li>
+        <p>Would be the syntax for a descendant which means select a that are descendents of div</p><br>
+        <p>div a{</p>
+        }
+    </li></ul></h4>
+
+    <h3>Adjacent sibling</h3>
+    <h4><ul><li>
+        <p>The selector is used to select an element directly after another specific element.</p>
+        <p>Sibling elements must have the same parent element.</p>
+        <p>in the following syntax it means to select the first p tag after the div</p><br>
+        <p>div + p{</p>
         }
     </li></ul></h4>
 </body>

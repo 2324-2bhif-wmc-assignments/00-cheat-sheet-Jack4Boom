@@ -36,3 +36,13 @@ h2{
 h1{
     color: #028476;
 }
+
+.html-declaration{
+    height: 15rem;
+    width: 40rem;
+}
+
+.css-declaration{
+    height: 12rem;
+    width: 40rem;
+}
