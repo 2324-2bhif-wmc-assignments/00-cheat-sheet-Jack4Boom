@@ -150,32 +150,32 @@
         }
     </li></ul></h4>
 
-    <h3>Direct child</h3>
+    <h3>Tilde selector</h3>
     <h4><ul><li>
-        <p>Would be the syntax for a direct child meaning it selects all h1's in the body</p><br>
-        <p>body > h1{</p>
+        <p>The element1~element2 selector matches occurrences of element2 that are preceded by element1</p>
+        <li><p>Both elements must have the same parent, but element2 does not have to be immediately preceded by element1</p></li><br>
+        <p>p ~ ul {</p>
+        <ul><p>background: #ff0000;</p></ul>
         }
     </li></ul></h4>
 
     <h3>Direct child</h3>
     <h4><ul><li>
-        <p>Would be the syntax for a direct child meaning it selects all h1's in the body</p><br>
+        <p>Would be the syntax for a direct child meaning it selects all h1's where body is the parent</p><br>
         <p>body > h1{</p>
         }
     </li></ul></h4>
 
     <h3>Descendant</h3>
     <h4><ul><li>
-        <p>Would be the syntax for a descendant which means select a that are descendents of div</p><br>
+        <p>Would be the syntax for a descendant which means select a that are descendents of div, meaning it selects every a inside a div</p><br>
         <p>div a{</p>
         }
     </li></ul></h4>
 
     <h3>Adjacent sibling</h3>
     <h4><ul><li>
-        <p>The selector is used to select an element directly after another specific element.</p>
-        <p>Sibling elements must have the same parent element.</p>
-        <p>in the following syntax it means to select the first p tag after the div</p><br>
+        <p>The element+element selector is used to select an element that is directly after another specific element</p><br>
         <p>div + p{</p>
         }
     </li></ul></h4>
