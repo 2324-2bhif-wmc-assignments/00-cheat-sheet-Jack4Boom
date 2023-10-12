@@ -1,7 +1,10 @@
 body{
     font-family: "Century Gothic";
 }
+
 .topnav {
+    position: sticky;
+    top: 0;
     background-color: #7D98A1;
     overflow: hidden;
 }
@@ -45,4 +48,18 @@ h1{
 .css-declaration{
     height: 12rem;
     width: 40rem;
+}
+
+#container a{
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+
+#container a:hover {
+    font-size: 1.2em;
 }
