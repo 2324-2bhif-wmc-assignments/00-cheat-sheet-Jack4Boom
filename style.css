@@ -63,3 +63,20 @@ h1{
 #container a:hover {
     font-size: 1.2em;
 }
+
+li{
+    font-size: large;
+    font-weight: bold;
+}
+
+.without-dot{
+    list-style-type: none;
+}
+
+.smaller-text{
+    font-size: medium;
+}
+
+.text-indentation{
+    margin-left: 2%;
+}
