@@ -50,6 +50,11 @@ h1{
     width: 40rem;
 }
 
+.url-declaration{
+    height: 25rem;
+    width: 50rem;
+}
+
 #container a{
     font-size: 1em;
     margin: 0;
